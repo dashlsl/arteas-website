@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- METAS -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Site Metas -->
+  <meta name="keywords" content="Tea, Shop, Business, Coffee">
+  <meta name="description" content="Arteas is a Tea company specializing in premium tea from Japan and China.">
+  <meta name="author" content="Dashayne Lum">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+
+  <!-- Style Sheets -->
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+  <script defer src="js/contact_form.js"></script>
+
+  <title>
+      Arteas Online Store
+  </title>
+
+</head>
+
+<body>
+  <div>
+    <!-- Header Section -->
+    <div class="header-section">
+      <header>
+        <div class="header-wrapper">
+          <div class="site-header-grid"></div>
+
+          <!-- Logo -->
+          <div class="site-header-grid">
+            <a class="site-header-logo" href="main.html">
+              <img src="images/arteas-logo.png" alt="Arteas">
+            </a>
+          </div>
+  
+          <!-- Header Icons -->
+          <div class="site-header-grid">
+            <div class="site-header-icons-wrapper">
+              <a class="site-header-icon site-header-icon-account" href="account/login.html">
+                <span>Login</span>
+              </a>
+              <a class="site-header-icon site-header-icon-search" href="search.html">
+                <svg viewBox="0 0 37 40" class="icon">
+                  <path d="M35.6 36l-9.8-9.8c4.1-5.4 3.6-13.2-1.3-18.1-5.4-5.4-14.2-5.4-19.7 0-5.4 5.4-5.4 14.2 0 19.7 2.6 2.6 6.1 4.1 9.8 4.1 3 0 5.9-1 8.3-2.8l9.8 9.8c.4.4.9.6 1.4.6s1-.2 1.4-.6c.9-.9.9-2.1.1-2.9zm-20.9-8.2c-2.6 0-5.1-1-7-2.9-3.9-3.9-3.9-10.1 0-14C9.6 9 12.2 8 14.7 8s5.1 1 7 2.9c3.9 3.9 3.9 10.1 0 14-1.9 1.9-4.4 2.9-7 2.9z"></path>
+                </svg>
+              </a>
+              <a class="site-header-icon site-header-icon-cart" href="cart.html">
+                <svg viewBox="0 0 37 40" class="icon">
+                  <path d="M36.5 34.8L33.3 8h-5.9C26.7 3.9 23 .8 18.5.8S10.3 3.9 9.6 8H3.7L.5 34.8c-.2 1.5.4 2.4.9 3 .5.5 1.4 1.2 3.1 1.2h28c1.3 0 2.4-.4 3.1-1.3.7-.7 1-1.8.9-2.9zm-18-30c2.2 0 4.1 1.4 4.7 3.2h-9.5c.7-1.9 2.6-3.2 4.8-3.2zM4.5 35l2.8-23h2.2v3c0 1.1.9 2 2 2s2-.9 2-2v-3h10v3c0 1.1.9 2 2 2s2-.9 2-2v-3h2.2l2.8 23h-28z"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="site-nav site-nav-centered">
+          <ul class="header-site-nav">
+            <li>
+              <a href="main.html" class="site-nav-link">
+                <span class="site-nav-label">Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="shop.html" class="site-nav-link">
+                <span class="site-nav-label">Shop</span>
+              </a>
+            </li>
+            <li>
+              <a href="about/story.html" class="site-nav-link">
+                <span class="site-nav-label">About</span>
+              </a>
+            </li>
+            <li class="site-nav-active">
+              <a href="contact.html" class="site-nav-link">
+                <span class="site-nav-label">Contact</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+      </header>
+    </div>
+
+    <!-- Main Section -->
+    <div>
+      <div class="section-header">
+        <div class="section-header-content">
+          <h1>CONTACT US</h1>
+          <div class="section-subtext contact-text">
+            <p>ARTEAS MALAYSIA</p>
+            <p>
+              No. 321, First Floor, Street A, <br>
+              12345 Kuala Lumpur, <br>
+              Malaysia
+            </p>
+            <p>
+              Tel: +6012-3456789 <br>
+              Email: contact@arteas.com
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-container">
+        <div class="form-wrapper">
+          <form id="contact-form">
+            <div class="form-field-half-grid">              
+              <div class="form-field">
+                <input type="text" id="contact-name" name="contact-name" class="full" value placeholder="Name">
+                <div class="form-error"></div>
+              </div>
+              <div class="form-field">
+                <input type="tel" id="contact-phonenum" name="contact-phonenum" class="full" value placeholder="Phone Number">
+                <div class="form-error"></div>
+              </div>
+            </div>
+            <div class="form-field">
+              <input type="text" id="contact-email" name="contact-email" class="full" value placeholder="Email address" autocapitalize="off" autocomplete="off">
+              <div class="form-error"></div>
+            </div>
+            <div class="form-field">
+              <textarea rows="10" id="contact-message" name="contact-message" class="full" value placeholder="Message"></textarea>
+              <div class="form-error"></div>
+            </div>
+            <div class="form-field">
+              <button type="submit" class="btn full">
+                <span>Send</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-success-message">
+      <h2>Message successfully sent!</h2>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer-section">
+      <div>
+        <div class="footer-content">
+          <img src="images/arteas-logo.png">
+        </div>
+        <small class="site-footer-copyright-content">
+          © 2023, ARTEAS MY
+        </small>
+        <div class="site-footer-dates">
+          <span id="creationDate"></span>
+          <span id="updateDate"></span>
+          <span id="collectionDate"></span>
+        </div>
+      </div>
+
+      <script>
+        var creationDate = new Date('December 8, 2023');
+        var updateDate = new Date('December 14, 2023');
+        var collectionDate = new Date('December 14, 2023');
+    
+        var formattedCreationDate = creationDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+        var formattedUpdateDate = updateDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+        var formattedCollectionDate = collectionDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    
+        document.getElementById('creationDate').innerHTML = 'Creation date: ' + formattedCreationDate;
+        document.getElementById('updateDate').innerHTML = '| Update date: ' + formattedUpdateDate;
+        document.getElementById('collectionDate').innerHTML = '| Collection date: ' + formattedCollectionDate;
+      </script>
+
+      <div class="footer-content">
+        <h4>SUPPORT</h4>
+        <ul>
+          <li>
+            <a href="support/faq.html">FAQ</a>
+          </li>
+          <li>
+            <a href="support/tos.html">Terms of Service</a>
+          </li>
+          <li>
+            <a href="supportreturns.html">Returns and Refund Policy</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-content">
+        <h4>ABOUT</h4>
+        <ul>
+          <li>
+            <a href="about/story.html">Our Story</a>
+          </li>
+          <li>
+            <a href="about/locations.html">Locations</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
